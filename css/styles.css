@@ -25,3 +25,21 @@ li a:hover:not(.active) {
 .active {
     background-color: white;
 }
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
