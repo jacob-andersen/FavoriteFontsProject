@@ -1,5 +1,3 @@
-const fontSize = "40pt"
-
 function updateCardText() {
     updateFontSize();
     var x = document.getElementById("myInput").value;
@@ -14,8 +12,14 @@ function updateCardText() {
 }
 
 function updateFontSize() {
+    fontSize = document.getElementById("myList").value;
     for (i = 1; i < 9; i++) {
         document.getElementById("cardText" + i).style.fontSize = fontSize;
     }
+}
 
+function reset() {
+    fontSize = "20px";
+    document.getElementById("myInput").value = "";
+    updateCardText();
 }

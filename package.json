@@ -1,0 +1,19 @@
+{
+  "name": "favoritefontsproject",
+  "version": "1.0.0",
+  "description": "pre-work project for Chingu Voyage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-andersen/FavoriteFontsProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacob-andersen/FavoriteFontsProject/issues"
+  },
+  "homepage": "https://github.com/jacob-andersen/FavoriteFontsProject#readme"
+}

@@ -34,16 +34,25 @@
     </header>
 
     <nav>
-        <div class="w3-panel w3-round-xxlarge w3-white w3-border">
+        <!-- <div class="w3-panel w3-round-xxlarge w3-white w3-border"> -->
+        <div>
+
             <ul>
                 <li><a href="#about">Reset</a></li>
                 <li><a href="#about">5</a></li>
                 <li><a href="#about">4</a></li>
                 <li><a href="#articles">3</a></li>
-                <li><a href="#featured">Font size</a></li>
+                <li style="float:left">
+                    <select id="myList" oninput="updateFontSize()">
+                              <option value = "20px">20px</option>
+                              <option value = "24px">24px</option>
+                              <option value = "32px">32px</option>
+                              <option value = "40px">40px</option>
+                            </select>
+                </li>
 
                 <input class="majornav" type="text" id="myInput" oninput="updateCardText()" placeholder="Type something">
-                <li style="float:left"><a href="#">Google Search</a></li>
+                <li style="float:right"><a href="#">Google Search</a></li>
             </ul>
         </div>
     </nav>
