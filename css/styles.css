@@ -1,3 +1,16 @@
+.button {
+    border-radius: 50%;
+}
+
+.card {
+    font-size: 16px;
+}
+
+
+/* p {
+    font-size: large;
+} */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,6 +29,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 li a:hover:not(.active) {
@@ -31,8 +45,12 @@ li a:hover:not(.active) {
 
 .column {
     float: left;
-    width: 20%;
-    padding: 15px;
+    width: 25%;
+    padding: 20px;
+}
+
+.row {
+    align-items: center;
 }
 
 
@@ -42,4 +60,27 @@ li a:hover:not(.active) {
     content: "";
     display: table;
     clear: both;
+}
+
+nav {
+    display: inline-flex;
+}
+
+.majornav {
+    margin: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+footer {
+    display: flex;
+    text-align: center;
+}
+
+.nav-border {
+    border-radius: 30px;
 }
