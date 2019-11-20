@@ -1,6 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
 <HTML>
 
 <HEAD>
+    <meta charset="utf-8" />
     <TITLE>Favorite Fonts</TITLE>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="js/fontsProject.js"></script>
@@ -18,12 +24,11 @@
 
     <header>
         <ul>
-            <li style="float:left"><a href="#">Google Fonts</a></li>
-            <li style="float:right"><a href="#about">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#articles">Articles</a></li>
             <li><a href="#featured">Featured</a></li>
             <li><a href="#catalog">Catalog</a></li>
-
+            <li style="float:left"><a href="#">Google Fonts</a></li>
         </ul>
         <hr>
     </header>
@@ -31,12 +36,13 @@
     <nav>
         <div class="w3-panel w3-round-xxlarge w3-white w3-border">
             <ul>
-                <li><a href="#about">6</a></li>
+                <li><a href="#about">Reset</a></li>
                 <li><a href="#about">5</a></li>
                 <li><a href="#about">4</a></li>
                 <li><a href="#articles">3</a></li>
                 <li><a href="#featured">Font size</a></li>
-                <input class="majornav" type="text" placeholder="Type something">
+
+                <input class="majornav" type="text" id="myInput" oninput="updateCardText()" placeholder="Type something">
                 <li style="float:left"><a href="#">Google Search</a></li>
             </ul>
         </div>
@@ -47,50 +53,51 @@
             <div class="column">
                 <hr>
                 <!-- <h5>Roboto <button class="button button" float="right">+</button></h5> -->
+                <h5>Roboto</h5>
                 <p>Christian Robertson</p>
-                <p class="card" style="font-family:Roboto">Then came the night of the first falling star.</p>
+                <p id="cardText1" class="card" style="font-family:Roboto">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Gayathri</h5>
                 <p>SMC</p>
-                <p class="card" style="font-family:Gayathri">Then came the night of the first falling star.</p>
+                <p id="cardText2" class="card" style="font-family:Gayathri">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Chilanka</h5>
                 <p>SMC</p>
-                <p class="card" style="font-family:Chilanka">Then came the night of the first falling star.</p>
+                <p id="cardText3" class="card" style="font-family:Chilanka">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Open Sans</h5>
                 <p>Steve Matteson</p>
-                <p class="card" style="font-family:Open Sans">Then came the night of the first falling star.</p>
+                <p id="cardText4" class="card" style="font-family:Open Sans">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Lato</h5>
                 <p>Łukasz Dziedzic</p>
-                <p class="card" style="font-family:Lato">Then came the night of the first falling star.</p>
+                <p id="cardText5" class="card" style="font-family:Lato">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Manjari</h5>
                 <p>Santhosh Thottingal</p>
-                <p class="card" style="font-family:Manjari">Then came the night of the first falling star.</p>
+                <p id="cardText6" class="card" style="font-family:Manjari">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Montserrat</h5>
                 <p>Julieta Ulanovsky</p>
-                <p class="card" style="font-family:Montserrat">Then came the night of the first falling star.</p>
+                <p id="cardText7" class="card" style="font-family:Montserrat">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
                 <h5>Roboto Condensed</h5>
                 <p>Christian Robertson</p>
-                <p class="card" style="font-family:Roboto Condensed">Then came the night of the first falling star.</p>
+                <p id="cardText8" class="card" style="font-family:Roboto Condensed">Then came the night of the first falling star.</p>
             </div>
         </div>
     </main>
