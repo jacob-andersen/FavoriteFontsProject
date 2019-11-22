@@ -19,7 +19,7 @@ function updateFontSize() {
 }
 
 function reset() {
-    fontSize = "20px";
+    document.getElementById("myList").value = "20px";
     document.getElementById("myInput").value = "";
     updateCardText();
 }

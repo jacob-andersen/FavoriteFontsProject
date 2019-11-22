@@ -2,9 +2,10 @@
     border-radius: 50%;
 }
 
-.card {
+
+/* .card {
     font-size: 16px;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -24,24 +25,25 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 
 li a:hover:not(.active) {
-    background-color: white;
+    background-color: grey;
+}
+
+img hover:not(.active) {
+    background-color: grey;
 }
 
 .active {
     background-color: white;
 }
 
-
-/* Create three equal columns that floats next to each other */
-
 .column {
     float: left;
-    width: 25%;
-    padding: 20px;
+    width: 20%;
+    padding: 8px;
 }
 
 .row {
@@ -58,20 +60,16 @@ li a:hover:not(.active) {
 }
 
 nav {
-    display: inline-flex;
+    display: flex;
 }
 
 .majornav {
-    margin: 8px;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 footer {
-    display: flex;
     text-align: center;
 }

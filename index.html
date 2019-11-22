@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <TITLE>Favorite Fonts</TITLE>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/fontsProject.js"></script>
+    <script src="js/FontsProject.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Gayathri' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
@@ -17,7 +17,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Manjari' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="css/w3.css">
 </HEAD>
 
 <BODY>
@@ -34,16 +33,19 @@
     </header>
 
     <nav>
-        <!-- <div class="w3-panel w3-round-xxlarge w3-white w3-border"> -->
         <div>
 
             <ul>
-                <li><a href="#about">Reset</a></li>
-                <li><a href="#about">5</a></li>
-                <li><a href="#about">4</a></li>
-                <li><a href="#articles">3</a></li>
-                <li style="float:left">
-                    <select id="myList" oninput="updateFontSize()">
+                <li>
+                    <img src ="reset.png" height="50px" width="50px" onclick="reset()">
+                </li>
+
+                <li><a href="#darklight">Dark/Light</a></li>
+                
+                <li><a href="#gridlist">Grid/List</a></li>
+                
+                <li>
+                    <select select class="majornav" id="myList" oninput="updateFontSize()">
                               <option value = "20px">20px</option>
                               <option value = "24px">24px</option>
                               <option value = "32px">32px</option>
@@ -52,7 +54,7 @@
                 </li>
 
                 <input class="majornav" type="text" id="myInput" oninput="updateCardText()" placeholder="Type something">
-                <li style="float:right"><a href="#">Google Search</a></li>
+                <li style="float:left"><a href="#">Google Search</a></li>
             </ul>
         </div>
     </nav>
@@ -61,50 +63,57 @@
         <div class="row">
             <div class="column">
                 <hr>
-                <!-- <h5>Roboto <button class="button button" float="right">+</button></h5> -->
-                <h5>Roboto</h5>
+                <h5><b>Roboto</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Christian Robertson</p>
                 <p id="cardText1" class="card" style="font-family:Roboto">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Gayathri</h5>
+                <h5><b>Gayathri</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>SMC</p>
                 <p id="cardText2" class="card" style="font-family:Gayathri">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Chilanka</h5>
+                <h5><b>Chilanka</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>SMC</p>
                 <p id="cardText3" class="card" style="font-family:Chilanka">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Open Sans</h5>
+                <h5><b>Open Sans</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Steve Matteson</p>
                 <p id="cardText4" class="card" style="font-family:Open Sans">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Lato</h5>
+                <h5><b>Lato</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Łukasz Dziedzic</p>
                 <p id="cardText5" class="card" style="font-family:Lato">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Manjari</h5>
+                <h5><b>Manjari</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Santhosh Thottingal</p>
                 <p id="cardText6" class="card" style="font-family:Manjari">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Montserrat</h5>
+                <h5><b>Montserrat</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Julieta Ulanovsky</p>
                 <p id="cardText7" class="card" style="font-family:Montserrat">Then came the night of the first falling star.</p>
             </div>
             <div class="column">
                 <hr>
-                <h5>Roboto Condensed</h5>
+                <h5><b>Roboto Condensed</b></h5>
+                <button class="button" style="float:right;">+</button>
                 <p>Christian Robertson</p>
                 <p id="cardText8" class="card" style="font-family:Roboto Condensed">Then came the night of the first falling star.</p>
             </div>
