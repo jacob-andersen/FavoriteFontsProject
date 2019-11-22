@@ -47,11 +47,8 @@ img hover:not(.active) {
 }
 
 .row {
-    align-items: center;
+    align-content: center;
 }
-
-
-/* Clear floats after the columns */
 
 .row:after {
     content: "";
@@ -65,7 +62,7 @@ nav {
 
 .majornav {
     margin-top: 16px;
-    margin-left: 32px;
+    margin-left: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
