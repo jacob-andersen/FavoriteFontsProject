@@ -1,3 +1,10 @@
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .button {
     border-radius: 50%;
 }
@@ -36,15 +43,12 @@ img hover:not(.active) {
 }
 
 .column {
-    float: left;
-    width: 20%;
-    padding: 8px;
+    width: 25%;
+    padding: 16px;
 }
 
 .row {
     display: flex;
-    flex-direction: row;
-    align-content: center;
 }
 
 .row:after {
@@ -53,21 +57,17 @@ img hover:not(.active) {
     clear: both;
 }
 
-nav {
-    display: flex;
-}
-
 .majornav {
     display:flex;
     flex-direction: row;
-    align-contents: center;
+    justify-content: space-between;
     margin-top: 16px;
-    margin-left: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 
 footer {
-    display:flex;
+    margin: 32px;
     text-align: center;
 }
