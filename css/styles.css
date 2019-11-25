@@ -2,11 +2,6 @@
     border-radius: 50%;
 }
 
-
-/* .card {
-    font-size: 16px;
-} */
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -25,7 +20,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* border-radius: 25px; */
+    border-radius: 25px;
 }
 
 li a:hover:not(.active) {
@@ -47,6 +42,8 @@ img hover:not(.active) {
 }
 
 .row {
+    display: flex;
+    flex-direction: row;
     align-content: center;
 }
 
@@ -61,6 +58,9 @@ nav {
 }
 
 .majornav {
+    display:flex;
+    flex-direction: row;
+    align-contents: center;
     margin-top: 16px;
     margin-left: 0px;
     margin-bottom: 0px;
@@ -68,5 +68,6 @@ nav {
 }
 
 footer {
+    display:flex;
     text-align: center;
 }

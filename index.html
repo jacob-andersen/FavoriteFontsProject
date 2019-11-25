@@ -29,7 +29,7 @@
             <li><a href="#catalog">Catalog</a></li>
             <li style="float:left"><a href="#">Google Fonts</a></li>
         </ul>
-        <hr>
+        <!-- <hr>gridlist{} -->
     </header>
 
     <nav>
@@ -37,13 +37,17 @@
 
             <ul>
                 <li>
-                    <img src ="reset.png" height="50px" width="50px" onclick="reset()">
+                    <img src ="reset.png" title="Reset" height="50px" width="50px" onclick="reset()">
                 </li>
 
-                <li><a href="#darklight">Dark/Light</a></li>
-                
-                <li><a href="#gridlist">Grid/List</a></li>
-                
+                <li>
+                    <img src ="darklight.png" title="Toggle brightness" height="50px" width="50px" onclick="darklight()">
+                </li>
+
+                <li>
+                    <img src ="gridlist.png" title="Toggle grid and list"height="50px" width="50px" onclick="gridlist()">
+                </li>
+
                 <li>
                     <select select class="majornav" id="myList" oninput="updateFontSize()">
                               <option value = "20px">20px</option>
@@ -89,6 +93,8 @@
                 <p>Steve Matteson</p>
                 <p id="cardText4" class="card" style="font-family:Open Sans">Then came the night of the first falling star.</p>
             </div>
+        </div>
+        <div class="row">
             <div class="column">
                 <hr>
                 <h5><b>Lato</b></h5>
