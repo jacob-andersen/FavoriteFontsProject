@@ -17,4 +17,17 @@ When there is no text in the custom text box, the standard sample text is displa
 Changing the font size will immediately be reflected in all font cards.
 
 The text and font size can always be reset to the original settings by clicking the <img src=
-"assets/reset.png" height="25px" width="25px"> icon.
+"assets/reset.png" height="25px" width="25px"> button.
+
+<br>
+<h1>Features yet to be implemented</h1>
+
+<li>Some of the buttons are presently just for show, and don't actually do anything.
+
+<li>The links on the navigation bar at the top of the screen are not going anywhere.
+
+<li>The Google Search, Contrast and Grid/List icons are also not wired up to any functionality.
+
+<li>A back-to-top-button would come in handy, when the combination of much text and a large font size causes the navigation bar to scroll out of view.
+
+<li> The layout of the page is not as responsive as it could be, in regards to different screeen sizes.
