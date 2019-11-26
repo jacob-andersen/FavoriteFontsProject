@@ -31,3 +31,21 @@ The text and font size can always be reset to the original settings by clicking 
 <li>A back-to-top-button would come in handy, when the combination of much text and a large font size causes the navigation bar to scroll out of view.
 
 <li> The layout of the page is not as responsive as it could be, in regards to different screeen sizes.
+
+<br>
+<h1>How to deploy app</h1>
+
+Clone/Download the zipped project from https://github.com/jacob-andersen/FavoriteFontsProject
+
+Open a terminal on your system and move to (or create) a folder where you wish to create the app.
+
+Type in your terminal :
+
+<em>git clone https://github.com/jacob-andersen/FavoriteFontsProject.git</em>
+
+Locate the FavoriteFontsProject folder on your system, open the folder and click the index.html file.
+
+<br>
+<h1> Dependencies</h1>
+
+The app uses plain HTML, CSS and Javascript and has no dependencies
