@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Favorite Fonts Project
 
 This app was created as a way for me to work on my CSS skills and also serves as my pre-work project for the 14th Chingu Voyage. (what is Chingu all about? read more here : http://chingu.io)
