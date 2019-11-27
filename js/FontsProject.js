@@ -23,3 +23,11 @@ function reset() {
     document.getElementById("myInput").value = "";
     updateCardText();
 }
+
+function gridlist() {
+    return
+}
+
+function darklight() {
+    return
+}
